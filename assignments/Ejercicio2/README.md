@@ -30,7 +30,7 @@ La suma de números entre -100 y 100 es: 75
 
 
 **Nota:** Por favor no quites nada de lo que ya tienes, simplemente agrega el código 
-necesario dentro de la función main. 
+necesario dentro de la función main.   
 `if __name__ == '__main__':` debe quedarse en tu código para que las pruebas puedan 
 ejecutarse adecuadamente.
 
