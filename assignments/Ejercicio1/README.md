@@ -59,5 +59,5 @@ ejecutarse adecuadamente.
 
 Una vez que termines tu actividad, si te da tiempo prueba con
 `pytest`, si no, simplemente súbela a tu repositorio en GitHub, con el proceso de commit + push.
-Debe ser enviada antes de las 11:00 de la mañana que se cierra el ejercicio.
+Debe ser enviada antes de las 13:00 que se cierra el ejercicio.
 

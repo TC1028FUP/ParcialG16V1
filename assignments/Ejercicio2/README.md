@@ -1,8 +1,8 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
 # Ejercicio 2 del examen parcial AD2021
-Ciclos - Cuántos números múltiplos de 5 nos da un usuario
+Ciclos - Suma de números entre -100 y 100 que nos proporciona el usuario
 
-Escribe un programa que reciba números positivos (considera el 0 como positivo) y vaya contando aquellos números que son múltiplos de 5. El programa deberá dejar de recibir números hasta que el usuario ingrese algún número negativo, al suceder esto, debe mostrar el mensaje de cuántos múltiplos de 5 recibió.
+Escribe un programa que reciba números positivos y negativos, deberá sumar sólo aquellos que estén entre -100 y 100 (límites inclusive). El programa debe terminar de recibir números si recibe un 0.
 
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama
@@ -19,13 +19,13 @@ if __name__ == '__main__':
 Ejemplo de corrida:
 
 ```
-Número: 2
-Número: 5
+Número: -65
+Número: 100
+Número: -10
+Número: 1200
+Número: 50
 Número: 0
-Número: 12
-Número: 150
-Número: -1
-Tecleaste 3 múltiplos de 5
+La suma de números entre -100 y 100 es: 75
 ```
 
 
@@ -36,4 +36,4 @@ ejecutarse adecuadamente.
 
 Una vez que termines tu actividad, si te da tiempo prueba con
 `pytest`, si no, simplemente súbela a tu repositorio en GitHub, con el proceso de commit + push.
-Debe ser enviada antes de las 11:00 de la mañana que se cierra el ejercicio.
+Debe ser enviada antes de las 13:00 que se cierra el ejercicio.

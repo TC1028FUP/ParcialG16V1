@@ -6,37 +6,37 @@ input_values = [
     # Test case 1
     (
         # Inputs
-        ["25", "34", "0", "20", "-7"],
+        ["25", "134", "110", "-20", "0"],
         # Outputs
-        ["Número: ", "Número: ","Número: ", "Número: ","Número: ", "Tecleaste 3 múltiplos de 5"],
+        ["Número: ", "Número: ","Número: ", "Número: ","Número: ", "La suma de números entre -100 y 100 es: 5"],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estes identificando y sumando sólo los que están entre -100 y 100"
     ),
     # Test case 2
     (
        # Inputs
-        ["12", "34", "1", "-1"],
+        ["12", "34", "-100", "0"],
         # Outputs
-        ["Número: ", "Número: ","Número: ", "Número: ", "Tecleaste 0 múltiplos de 5"],
+        ["Número: ", "Número: ","Número: ", "Número: ", "La suma de números entre -100 y 100 es: -54"],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estes identificando y sumando sólo los que están entre -100 y 100"
     ),
     # Test case 3
     (
         # Inputs
-        ["-100"],
+        ["0"],
         # Outputs
-        ["Número: ", "Tecleaste 0 múltiplos de 5"],
+        ["Número: ", "La suma de números entre -100 y 100 es: 0"],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estes identificando y sumando sólo los que están entre -100 y 100"
     ),
     # Test case 4
     (
         # Inputs
-        ["0", "-100"],
+        ["-3", "0"],
         # Outputs
-        ["Número: ", "Número: ", "Tecleaste 1 múltiplos de 5"],
+        ["Número: ", "Número: ", "La suma de números entre -100 y 100 es: -3"],
         # Message in case of failure
-        "Revisa que estes calculando bien todos los casos"
+        "Revisa que estes identificando y sumando sólo los que están entre -100 y 100"
     )
 ]
